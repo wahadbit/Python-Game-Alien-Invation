@@ -16,6 +16,7 @@ class Stars():
         self.bg_color = (0, 0, 0)
 
         self.stars = pygame.sprite.Group()
+        self._create_fleet()
 
     def start(self):
         """Запуск основного цикла игры."""
@@ -24,7 +25,6 @@ class Stars():
                 if event.type == pygame.QUIT:
                     sys.exit()
 
-            self._create_fleet()
             self._update_screen()
 
     def _create_fleet(self):
