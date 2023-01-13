@@ -7,7 +7,7 @@ class Settings():
 
         self.screen_width = 900
         self.screen_height = 600
-        self.bg_color = (20, 20, 20)  # (230, 230, 230)
+        self.bg_color = (21, 26, 26)  # (230, 230, 230)
         self.ship_speed = 1.5
 
         # Параметры снаряда
